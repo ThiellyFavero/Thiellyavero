@@ -10,3 +10,60 @@
     <title>Alurabookthy</title>
 </body>
 </html>
+  <body>
+<header class=”cabeçalho”>
+<div class=”container”>
+<input type=”checkbox” id=”menu” class=”container__botao”>
+<img src=”img/Logo.svg” alt=”Logo da Alurabooks” class=”container__imagem”>
+</div>
+    <body>
+<header class=”cabeçalho”> <div class=”container”>
+<input type=”checkbox” id=”menu” class=”container__botao”>
+<label for=”menu”>
+
+<span class=”cabeçalho__menu hamburguer container__imagem”></span>
+
+</label>
+<img src=”img/Logo.svg” alt=”Logo da Alurabooks” class=”container_imagem”>
+</div>
+     <body>
+<header class=”cabeçalho”>
+<div class=”container”>
+
+<input type=”checkbox” id=”menu” class=”container__botao”>
+<label for=”menu”>
+<span class=”cabeçalho__menu hamburguer container__imagem”></span>
+</label>
+<ul class=”lista-menu”>
+</ul>
+<img src=”img/Logo.svg” alt=”Logo da Alurabooks” class=”container_imagem”>
+</div>
+       <ul class=”lista-menu”>
+
+<li class=”lista-menu__titulo”>Categorias</li>
+
+</ul>
+      <ul class=”lista-menu”>
+
+<li class=”lista-menu__titulo”>Categorias</li>
+
+</ul>
+       .lista-menu {
+display: none;
+}
+       .container__botao:checked ~ .lista-menu {
+display: block;
+}
+       .cabeçalho {
+background-color: var(--branco);
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative;
+}
+      .lista-menu {
+display: none;
+position: absolute;
+top: 100%;
+}
+      
